@@ -9,4 +9,8 @@ __config() -> (
 
 __command() -> null;
 
-0() -> ( run ('carpet viewDistance 0') );
+set0() -> ( run ('carpet viewDistance 0');null );
+
+set16() -> ( run ('carpet viewDistance 16');null );
+
+set32() -> ( run ('carpet viewDistance 32');null );
