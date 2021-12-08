@@ -139,6 +139,22 @@ Various scripts that modify various game elements, often replicating popular mod
 	with the player command. This allows for afking, shadowing and such, but not bots, which a lot of
 	servers find useful.
 
+
+### [potion_master_cleric.sc](https://github.com/gnembon/scarpet/blob/master/programs/survival/potion_master_cleric.sc):
+#### By Opsaaaaa
+	Adds 7 randomized potion trades to the Cleric. 
+	It makes Haste, Dolphins Grace, Levitation, Wither, Blindness, Luck, and Mining Fatigue available in survival as potions.
+	Each effect can appear as a regular, splash, or lingering potion.
+	Once a cleric becomes a Journeyman they can developer 0-3 potion trades. 
+
+### [portalorient.sc](https://github.com/gnembon/scarpet/blob/master/programs/survival/portalorient.sc):
+#### By rv3r
+	Reorients a player after going through a Nether portal. App settings are per-player and default to not affecting player.
+	/portalorient off   - does not change player orientation
+	/portalorient air   - makes player face toward side with more air blocks
+	/portalorient solid - makes player face toward side with fewer solid blocks
+	In the event that each side of the portal has a matching number of valid blocks, does not reorient player.
+
 ### [prospectors_pick.sc](https://github.com/gnembon/scarpet/blob/master/programs/survival/prospectors_pick.sc):
 #### By gnembonmc
 	There is a video on his channel about this.
@@ -219,6 +235,13 @@ Various scripts that modify various game elements, often replicating popular mod
 ### [simply_harvest.sc](https://github.com/gnembon/scarpet/blob/master/programs/survival/simply_harvest.sc):
 #### By Gnottero
 	Allows the player to right-click on a crop to harvest it. The "Fortune" enchantment affects drops
+
+### [skip_night.sc](https://github.com/gnembon/scarpet/blob/master/programs/survival/skip_night.sc):
+#### By Firigion
+	Allows the player to automatically skip the night witout the use of a bed bot. Can be used in bed
+	mode or in command mode (toggeled inside the app, default: bed mode). Bed mode will skip the night
+	as long as there's a bed in the overworld with the work "skip" in its name. Local difficulty is not
+	reset when skipping the night. See this video for a full showcase: https://youtu.be/FY0PwGE0g68.
 
 ### [sleep_ignore_fake_players.sc](https://github.com/gnembon/scarpet/blob/master/programs/survival/sleep_ignore_fake_players.sc):
 #### By Sanluli36li
@@ -324,4 +347,5 @@ Various scripts that modify various game elements, often replicating popular mod
 	Firigion
 	boyenn
 	_GieR
+	Opsaaaaa
 	(Many more hopefully!)
