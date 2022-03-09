@@ -109,6 +109,10 @@ Various scripts that modify various game elements, often replicating popular mod
 #### By KingOfTheClouds
 	The command /horse_stats prints the health, speed and jump attributes of the horse/donkey/mule the player is looking at.
 
+### [instamine_deepslate.sc](https://github.com/gnembon/scarpet/blob/master/programs/survival/instamine_deepslate.sc):
+#### By manyrandomthings
+	Allows players to instamine deepslate if they have an efficiency 5 netherite pick and haste 2
+
 ### [inventory_refill.sc](https://github.com/gnembon/scarpet/blob/master/programs/survival/inventory_refill.sc):
 #### By gnembonmc
 	There is a video on his channel about this.
@@ -125,6 +129,17 @@ Various scripts that modify various game elements, often replicating popular mod
 	This will allow you to see how many blocks of a specific type there are in an area around a point.
 	locate will tell you first 100 blocks, as well as how many there are in total, and you can tp to them by clicking in chat.
 	hist will print a histogram like in gnembon's ancient debris video, but this will accept any block, and if there are less than 	40 blocks for that y level, it will print a nice looking histogram.
+
+
+### [lodestone_chunk_loader.sc](https://github.com/gnembon/scarpet/blob/master/programs/survival/lodestone_chunk_loader.sc)
+#### By Opsaaaaa
+	Lodestones are Loadstones aka chunk loaders.
+	When a player clicks on a lodestone while sneaking it marks that chunk to be force loaded
+	and if they click on it again the unmarks that chunk.
+	Breaking the loadstone also unmarks the chunk.
+	
+	Note that with this script players can unmark forceload chunks set by admins.
+
 
 ### [magic_doors.sc](https://github.com/gnembon/scarpet/blob/master/programs/survival/magic_doors.sc):
 #### By gnembonmc
