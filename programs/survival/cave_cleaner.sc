@@ -40,16 +40,18 @@ __command() -> (
             )
         )
     );
-    for (drowneds = entity_area('enderman', x,y,z, 50,50,50), 
-        holding = query(_, 'holds', 'mainhand');
-        if (holding != null, 
-            holding_item = get(holding,0);
-            if (holding_item == 'cactus' || holding_item == 'clay' || holding_item == 'coarse_dirt' || holding_item == 'rooted_dirt' || holding_item == 'dirt' || holding_item == 'grass_block' || holding_item == 'gravel' || holding_item == 'melon' || holding_item == 'mycelium' || holding_item == 'podzol' || holding_item == 'pumpkin' || holding_item == 'carved_pumpkin' || holding_item == 'brown_mushroom' || holding_item == 'red_mushroom' || holding_item == 'crimson_nylium' || holding_item == 'warped_nylium' || holding_item == 'crimson_fungus' || holding_item == 'warped_fungus' || holding_item == 'crimson_roots' || holding_item == 'warped_roots' || holding_item == 'dandelion' || holding_item == 'poppy' || holding_item == 'blue_orchid' || holding_item == 'allium' || holding_item == 'azure_bluet' || holding_item == 'red_tulip' || holding_item == 'orange_tulip' || holding_item == 'white_tulip' || holding_item == 'pink_tulip' || holding_item == 'oxeye_daisy' || holding_item == 'cornflower' || holding_item == 'lily_of_the_valley' || holding_item == 'wither_rose' , 
-                modify(_, 'remove');
-                count = count + 1
-            )
-        )
+//    for (drowneds = entity_area('enderman', x,y,z, 50,50,50), 
+// The following code do not work smh
+// I will look into this issue later
+//        holding = query(_, 'holds', 'mainhand');
+//        if (holding != null, 
+//            holding_item = get(holding,0);
+//            if (holding_item == 'cactus' || holding_item == 'clay' || holding_item == 'coarse_dirt' || holding_item == 'rooted_dirt' || holding_item == 'dirt' || holding_item == 'grass_block' || holding_item == 'gravel' || holding_item == 'melon' || holding_item == 'mycelium' || holding_item == 'podzol' || holding_item == 'pumpkin' || holding_item == 'carved_pumpkin' || holding_item == 'brown_mushroom' || holding_item == 'red_mushroom' || holding_item == 'crimson_nylium' || holding_item == 'warped_nylium' || holding_item == 'crimson_fungus' || holding_item == 'warped_fungus' || holding_item == 'crimson_roots' || holding_item == 'warped_roots' || holding_item == 'dandelion' || holding_item == 'poppy' || holding_item == 'blue_orchid' || holding_item == 'allium' || holding_item == 'azure_bluet' || holding_item == 'red_tulip' || holding_item == 'orange_tulip' || holding_item == 'white_tulip' || holding_item == 'pink_tulip' || holding_item == 'oxeye_daisy' || holding_item == 'cornflower' || holding_item == 'lily_of_the_valley' || holding_item == 'wither_rose' , 
+//                modify(_, 'remove');
+//                count = count + 1
+//            )
+//        )
     );
-    print ('Successfully removed ' + count + ' zombie(s)/drowned(s)/enderman(s).');
+    print ('Successfully removed ' + count + ' zombie(s)/drowned(s).');
     null
 )
