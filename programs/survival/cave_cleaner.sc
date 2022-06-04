@@ -61,7 +61,6 @@ __command() -> (
 //                count = count + 1
 //            )
 //        )
-    );
     print ('Successfully removed ' + count + ' zombie(s)/drowned(s).');
     null
 )
